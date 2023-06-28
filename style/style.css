@@ -556,3 +556,28 @@ video {
 .series__card:hover .series__card_bg {
     transform: scale(0.97);
 }
+.footer {
+    background: linear-gradient(90deg, #FF8C30, #9F4700);
+    margin-top: 63px;
+    padding: 26px 0;
+}
+
+.footer__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__left {
+    display: flex;
+    gap: 50px;
+}
+
+.footer__item_text {
+    color: var(--text);
+    text-align: right;
+    font-size: 18px;
+    font-family: var(--comf);
+    font-weight: 700;
+    letter-spacing: 0.18px;
+}
